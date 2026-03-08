@@ -11,6 +11,18 @@ Two different tracking approaches are implemented:
 
 ------------------------------------------------------------------------
 
+# Demo
+
+## CSRT Tracker
+
+![CSRT Demo](Demo/CSRT_demo.gif)
+
+## DaSiamRPN Tracker
+
+![DaSiamRPN Demo](Demo/DaSiamRPN_demo.gif)
+
+------------------------------------------------------------------------
+
 # Features
 
 -   Select an object manually using a bounding box
@@ -27,6 +39,9 @@ Two different tracking approaches are implemented:
     ├── Obj_Tracker_CSRT.py
     ├── Obj_Tracker_DaSiamRPN.py
     ├── requirements.txt
+    ├── Demo
+    │   ├── CSRT_demo.gif
+    │   └── DaSiamRPN_demo.gif
     └── DaSiamRPN/
         ├── dasiamrpn_model.onnx
         ├── dasiamrpn_kernel_r1.onnx
